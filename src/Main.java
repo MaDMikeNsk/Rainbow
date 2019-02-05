@@ -18,8 +18,8 @@ public class Main {
         }
         System.out.println("================");
 	    flipArray(rainbow);
-        for (int i = 0; i<rainbow.length; i++){
-            System.out.println(rainbow[i]);
+        for (String item : rainbow){
+            System.out.println(item);
         }
     }
 }
